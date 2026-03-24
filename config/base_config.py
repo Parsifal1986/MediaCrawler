@@ -19,7 +19,7 @@
 
 # Basic configuration
 PLATFORM = "xhs"  # Platform, xhs | dy | ks | bili | wb | tieba | zhihu
-KEYWORDS = "编程副业,编程兼职"  # Keyword search configuration, separated by English commas
+KEYWORDS = "插画,插画分享"  # Keyword search configuration, separated by English commas
 LOGIN_TYPE = "qrcode"  # qrcode or phone or cookie
 COOKIES = ""
 CRAWLER_TYPE = (
@@ -83,7 +83,7 @@ USER_DATA_DIR = "%s_user_data_dir"  # %s will be replaced by platform name
 START_PAGE = 1
 
 # Control the number of crawled videos/posts
-CRAWLER_MAX_NOTES_COUNT = 15
+CRAWLER_MAX_NOTES_COUNT = 5
 
 # Controlling the number of concurrent crawlers
 MAX_CONCURRENCY_NUM = 1
@@ -92,7 +92,7 @@ MAX_CONCURRENCY_NUM = 1
 ENABLE_GET_MEIDAS = False
 
 # Whether to enable comment crawling mode. Comment crawling is enabled by default.
-ENABLE_GET_COMMENTS = True
+ENABLE_GET_COMMENTS = False
 
 # Control the number of crawled first-level comments (single video/post)
 CRAWLER_MAX_COMMENTS_COUNT_SINGLENOTES = 10
